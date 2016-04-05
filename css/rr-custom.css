@@ -1,0 +1,23 @@
+#menu-logo{
+  width:50px;
+  padding-top:10px;
+  display:inline;
+}
+.navbar-brand{
+  font-weight: 500;
+}
+img{
+  border-radius:5px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.social-media-list{
+  list-style-type: none;
+}
+body,.page-content{
+  background-color: #ccc;
+}
+body,html{
+  font-size: 1.1rem;
+}
