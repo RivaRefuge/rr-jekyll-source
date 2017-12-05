@@ -6,5 +6,7 @@
   js_options: {}      # js minifier options
   css_options: {}     # css minifier options
   html_options: {}    # html minifier options
-=end
+
 require 'jekyll-press'
+
+=end

@@ -10,11 +10,8 @@ title: Riva Refuge
 email: contact@rivarefuge.org
 description: > # this means to ignore newlines until "baseurl:"
   Riva Refuge is a small, secular non-profit organization that helps children, 
-  youth, young women, disabled, and elderly. Presently, we have four projects 
-  that need assistance: Jadelle contraception program Scholarships for 
-  disadvantaged children/youth Support for Girls at Anti-Female Genital 
-  Mutilation Safe-Camp in Tanzania Matisi Food and Medicine Our mission is to 
-  elevate the well-being of disadvantaged
+  youth, young women, disabled, and elderly. Our mission is to 
+  elevate the well-being of disadvantaged.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.rivarefuge.org" # the base hostname & protocol for your site
 github_username:  rivarefuge
