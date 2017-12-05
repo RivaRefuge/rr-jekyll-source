@@ -20,3 +20,5 @@ github_username:  rivarefuge
 markdown: kramdown
 
 exclude: [params.json, .DS_Store, LICENSE, README.md, feed.xml, js/npm.js, js/bootstrap.js]
+
+include: [README.md, LICENSE]
