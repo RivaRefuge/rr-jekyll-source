@@ -19,4 +19,4 @@ github_username:  rivarefuge
 # Build settings
 markdown: kramdown
 
-exclude: [params.json, .DS_Store, LICENSE, README.md, feed.xml]
+exclude: [params.json, .DS_Store, LICENSE, README.md, feed.xml, js/npm.js, js/bootstrap.js]
