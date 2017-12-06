@@ -17,3 +17,7 @@ as:
 - Coordinating disease prevention or treatment efforts
 - Assisting with local community developmental programs
 - Supporting children in orphanages
+
+
+
+{% include donate.html %}
