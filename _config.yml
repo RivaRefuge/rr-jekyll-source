@@ -13,7 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
   youth, young women, disabled, and elderly. Our mission is to 
   elevate the well-being of disadvantaged.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.rivarefuge.org" # the base hostname & protocol for your site
+url: "https://www.rivarefuge.org" # the base hostname & protocol for your site
 github_username:  rivarefuge
 
 # Build settings

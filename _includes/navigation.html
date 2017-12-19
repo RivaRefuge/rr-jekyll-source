@@ -8,8 +8,8 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-				<img id="menu-logo" src="/images/rrlogo-only.png">
-        <a class="navbar-brand {% if page.menuEntry == 'home' %}active{% endif %}" href="/">
+				<img id="menu-logo" src="{{  site.url }}/images/rrlogo-only.png" alt="Logo">
+        <a class="navbar-brand {% if page.menuEntry == 'home' %}active{% endif %}" href="{{  site.url }}/">
 					<span style="color:red;">Riva</span> <span style="color:black;">Refuge</span>
 					
 				</a>
@@ -17,20 +17,20 @@
       <div class="collapse navbar-collapse" id="navbar-collapse-1">
   	    <ul class="nav navbar-nav">
           <li class="dropdown {% if page.menuEntry == "campaigns" %}active {% endif %}">
-            <a href="/campaigns/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Campaigns <span class="caret"></span></a>
+            <a href="{{  site.url }}/campaigns/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Campaigns <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-                <li><a href="{{  site.baseurl }}/campaigns/jadelle-family-planning-program/">Jadelle® Family Planning Program</a></li>
-                <li><a href="{{  site.baseurl }}/campaigns/scholarship-program/">Scholarship Program</a></li>
-                <li><a href="{{  site.baseurl }}/campaigns/anti-fgm-drive/">Food for Anti-FGM Girls</a></li>                
-                <li><a href="{{  site.baseurl }}/campaigns/matisi-food-medicine/">Matisi Food and Medicine</a></li>
+                <li><a href="{{  site.url }}/campaigns/jadelle-family-planning-program/">Jadelle® Family Planning Program</a></li>
+                <li><a href="{{  site.url }}/campaigns/scholarship-program/">Scholarship Program</a></li>
+                <li><a href="{{  site.url }}/campaigns/anti-fgm-drive/">Food for Anti-FGM Girls</a></li>                
+                <li><a href="{{  site.url }}/campaigns/matisi-food-medicine/">Matisi Food and Medicine</a></li>
             </ul>
           </li>
-          <li class="{% if page.menuEntry == "ourvision" %}active {% endif %}"><a href="{{  site.baseurl }}/our-vision">Our Vision</a></li>
-          <li class="{% if page.menuEntry == "whatwedo" %}active {% endif %}"><a href="{{  site.baseurl }}/what-we-do">What We Do</a></li>
-          <li class="{% if page.menuEntry == "getinvolved" %}active {% endif %}"><a href="{{  site.baseurl }}/get-involved">Get Involved</a></li>
-          <li class="{% if page.menuEntry == "history" %}active {% endif %}"><a href="{{  site.baseurl }}/our-history">Our History</a></li>
-          <li class="{% if page.menuEntry == "board" %}active {% endif %}"><a href="{{  site.baseurl }}/board-of-directors">Board of Directors</a></li>
-          <li class="{% if page.menuEntry == "contact" %}active {% endif %}"><a href="{{  site.baseurl }}/contact-us">Contact</a></li>
+          <li class="{% if page.menuEntry == "ourvision" %}active {% endif %}"><a href="{{  site.url }}/our-vision">Our Vision</a></li>
+          <li class="{% if page.menuEntry == "whatwedo" %}active {% endif %}"><a href="{{  site.url }}/what-we-do">What We Do</a></li>
+          <li class="{% if page.menuEntry == "getinvolved" %}active {% endif %}"><a href="{{  site.url }}/get-involved">Get Involved</a></li>
+          <li class="{% if page.menuEntry == "history" %}active {% endif %}"><a href="{{  site.url }}/our-history">Our History</a></li>
+          <li class="{% if page.menuEntry == "board" %}active {% endif %}"><a href="{{  site.url }}/board-of-directors">Board of Directors</a></li>
+          <li class="{% if page.menuEntry == "contact" %}active {% endif %}"><a href="{{  site.url }}/contact-us">Contact</a></li>
 	      </ul>
       </div>
     </div>
