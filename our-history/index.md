@@ -12,6 +12,9 @@ Haiti, USA, and other countries.
 
 **2018**
 
+
+
+
 Not all students present us with success stories. Kevin B. ran away from the boarding school where we’d been supporting him for three years. The principal offered to allow him to return and to take his final exams during the holiday break, which was a remarkably understanding and generous offer. Unfortunately, Kevin wasn’t with any of his extended family or friends. There was no way to contact him to forward this offer to him. Surely the principal would have offered counsel and advice as well as the opportunity to resume his education. In the end, Kevin didn’t reappear until well into the holiday break when the school had closed for the year. The result is that Kevin wasted the full year of tuition and boarding fees. He visited during the December visit, and explained that he had personal troubles with a fellow student. This was his last chance to remember that "actions have their consequences", and he will no longer be funded. 
 
 A very kind and generous US volunteer/donor made sixty pillowcase dresses for little girls that were delivered in November. Thank you, Gloria P. You can see how these girls appreciate the dresses. 
