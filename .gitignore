@@ -1,6 +1,7 @@
 .sass-cache/
 .jekyll-metadata
 _site/
+.jekyll-cache
 
 
 # Numerous always-ignore extensions
