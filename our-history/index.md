@@ -3,37 +3,70 @@ layout: page
 title: Our History
 menuEntry: history
 ---
-![collage](/images/our-history.jpg)
+![collage](/images/our-history.jpg){: loading="lazy"}
 
 Riva Refuge was certified by the Internal Revenue Service as a 501(c)(3)
 organization in 2009. However, the core staff of Riva has been volunteering for
 over a decade with service projects in Kenya, Mexico, Panama, Costa Rica,
 Haiti, USA, and other countries.
 
+
+**2019**
+
+
+What a year 2019 was! We have provided JADELLE contraceptive implants to over 10,000 women in slums and rural areas of Kenya! Huge thanks to our donors and the on-the-ground crew for making this happen. JADELLE implants provide up to 5 years of contraception. Overpopulation is considered to be the single most important contributing factor to poverty in the developing world. Our impact to the lives of these 10,000 women is huge, giving them the chance to better care for existing children and to delay childbirth until they have the resources to care for a child.
+
+Our Friday Nutrition Program continues with beans and fresh-ground maize meal for 50-70 families. These families are often headed by grandparents who have inherited their grandchildren when the parents died of HIV. Kenya has a policy that orphans should be with family, regardless of how unable the family might be to care for them. All efforts are made to send children from county-run orphanages back to family. We are there to help them with these basic food supplies, and occasionally with a pair of school shoes.
+
+![Nutrition](/images/2019-p1.jpg){: loading="lazy"}
+![Nutrition](/images/2019-p2.jpg){: loading="lazy"}
+
+
+Judy A., the college student that we’ve known since she was 11 years old at Mama Ngina Children’s Home in Kisumu, met us in Kitale during our visit. She volunteered with the nutrition program and hospital visits. Her younger sister Noreen has finished high school, scoring above average in national exams  (SAT equivalent). We were able to get her into a two year teacher training program where she will be studying Early Childhood Development and Education. She began on Nov 23.
+
+![Judy](/images/2019-judy.jpg){: loading="lazy"}
+
+We sponsored Fred W. through three years of high school. He finished in 2018 and now has a job in Nairobi as a groundskeeper. He was on Christmas vacation during our visit, so he stopped by to say hello. Congratulations to Fred! What a well spoken, solid young man! We were able to get him through high school, earning that “completion” certificate is very meaningful in Kenya.
+
+![Fred](/images/2019-fred.jpg){: loading="lazy"}
+
+We are caring for two sets of triplets near Kitale. The first ones were living in a hut near the river (May 2014), which flooded frequently. We were able to build a home for them nearer a school and drinking water, away from the river (August, 2014). They and their siblings are doing much better now (Nov 2019). The house is now has electricity!
+
+![Triplets](/images/2019-t1.jpg){: loading="lazy"}
+![Triplets](/images/2019-t2.jpg){: loading="lazy"}
+![Triplets](/images/2019-t3.jpg){: loading="lazy"}
+
+The second set... We met when they were in prison with their mother who had sold property that wasn’t exactly hers to sell (2014). We repaid the buyer, allowing mom and the triplets to be released. The triplets are thriving (2019)!
+
+![Triplet](/images/2019-pp1.jpg){: loading="lazy"}
+![Triplet](/images/2019-pp2.jpg){: loading="lazy"}
+
+
+In 2018 we "lost" Kelvin B., a high school student who dropped out of Bomas Boys at finals week of junior year. Fortunately, he came to his senses and found a day school where he took his junior exams and has now completed his senior year. He was taking national exams at the end of high school during our visit, and we wish him the very best!
+
+
 **2018**
-
-
 
 
 Not all students present us with success stories. Kevin B. ran away from the boarding school where we’d been supporting him for three years. The principal offered to allow him to return and to take his final exams during the holiday break, which was a remarkably understanding and generous offer. Unfortunately, Kevin wasn’t with any of his extended family or friends. There was no way to contact him to forward this offer to him. Surely the principal would have offered counsel and advice as well as the opportunity to resume his education. In the end, Kevin didn’t reappear until well into the holiday break when the school had closed for the year. The result is that Kevin wasted the full year of tuition and boarding fees. He visited during the December visit, and explained that he had personal troubles with a fellow student. This was his last chance to remember that "actions have their consequences", and he will no longer be funded.
 
 A very kind and generous US volunteer/donor made sixty pillowcase dresses for little girls that were delivered in November. Thank you, Gloria P. You can see how these girls appreciate the dresses.
-![Pillocase dresses 1](/images/2018-pillowcasedresses1.jpg)
-![Pillocase dresses 2](/images/2018-pillowcasedresses2.jpg)
+![Pillowcase dresses 1](/images/2018-pillowcasedresses1.jpg){: loading="lazy"}
+![Pillowcase dresses 2](/images/2018-pillowcasedresses2.jpg){: loading="lazy"}
 
 
 **2017**
 
 Martin is a 41 yr old man who has stage 4 throat cancer. He has a gaping hole from cheek to tongue, making eating and drinking very difficult. He is unbelievably thin. He asked yesterday if we’d find a place for him to go so that his wife would be able to care for their seven children instead of caring for him day and night. We reached out to Kimbilio Hospice, in Kipkaren, and they had room for him. We picked him up in the morning for the 3 hour drive. His wife Rose seems to be a very strong woman. She has been making some money doing hair for her friends and neighbors, and could do better business with a blow dryer and a stock of hair extensions. Meanwhile, we bought her bags of groceries and gave her money buy school uniforms and sweaters for the kids.
 Martin passed after 10 days at hospice and was buried on May 20 on their home plot.
-![family](/images/2017-family.jpg)
-![family in uniforms](/images/2017-familyanduniforms.jpg)
+![family](/images/2017-family.jpg){: loading="lazy"}
+![family in uniforms](/images/2017-familyanduniforms.jpg){: loading="lazy"}
 
 Kelvin B. is our sponsored student at Bomas Secondary School. His academic performance is exceptional, but needs to improve his social skills and character. He recently picked a fight with an underclassman, and has had some issues with basic honesty. We understand that Kevin comes from a very difficult background but we insist that students understand that “actions have their consequences”. In other words: Straighten up and fly right, or the scholarship ends. The principal was present during the discussion with Kevin. He heard my promise, and will do his best to keep Kelvin in the school.
 
 Fred W. completed school at Namanjalala Secondary School and has a certificate of completion. We are proud of Fred and wish him the best in finding a secure job that will support himself and assist his father in the future.
 
-![Jerida](/images/2017-jerida.jpg)
+![Jerida](/images/2017-jerida.jpg){: loading="lazy"}
 Jerida, the elderly woman who we assist, is now totally bed ridden now. We are still paying her care-giver who comes daily to bathe, cook and clean. Assisted living or nursing homes aren’t an option in Kenya. It seems we are doing the best to provide a job for a woman to earn money for food, school fees, and housing while providing care for Jerida.
 
 **2016**
@@ -43,15 +76,15 @@ Fred W, our student at Namanjalala Secondary school, is approaching his final ye
 Abiud J. and Biaisha S., the students studying secondary education diplomas at Kisii University, Kitale Campus, have not provided any grade reports for their entire first year that we funded. Sadly for them, Riva Refuge requires that students provide grade reports or other verification of satisfactory completion of a term or year of coursework before we will continue funding. We believe that students, especially those studying at university level, must be mature enough to provide this documentation. It is surprising that some students try to require that Riva Refuge acquire grade reports from their university. Maybe the best we can do is provide some help, then require that a student meet our contract requirements for further funding or pay future tuition themselves. Yes, it sounds harsh. But we aren’t just a golden purse to pay school fees. We insist a student be responsible as related to her/his age and circumstances.
 
 We heard of a premie baby in the Falklands slum. We went in search, and found a tiny baby, the size of a newborn, left at home with three other children ages 2, 8 and 9. The 8-yr-old was feeding the baby some cow’s milk, diluted with water that may or may not have been heated/boiled enough to sterilize the water and the milk. The story was that mom had the baby one night (nobody knew she was pregnant) and then mom went into town to sell her veggies the next morning, leaving the baby at home without telling anybody about him. The story gets darker, but it turns out that the baby was born 2 months premature and had been left at home alone or with a sibling each day while mom continued to sell veggies in the downtown market. We talked to mom, explaining that she would be reported to Children’s Services if she left the baby alone or with other children. We helped her set up a home-based business cooking and selling french fries on her street corner. Fries are a typical street food for people as they walk home in the evening. We provided charcoal, the jika charcoal cooker, and half-a-bag of potatoes to get her started. In April, she abandoned her french fry business to return to town to sell veggies with her friends, and the baby is at home with a sibling who is missing school to babysit. But instead of babysitting, the sibling is running around the neighborhood playing. Premie Dan looked amazingly good considering his story! This is a very difficult situation. The single mom says she earns more money selling veggies than fries, and needs the money to buy food, shelter, clothing for the 7 other kids.
-![Premie](/images/2016-premie.jpg)
-![girl](/images/2016-girl.jpg)
-![Mom and baby](/images/2016-momandbaby.jpg)
+![Premie](/images/2016-premie.jpg){: loading="lazy"}
+![girl](/images/2016-girl.jpg){: loading="lazy"}
+![Mom and baby](/images/2016-momandbaby.jpg){: loading="lazy"}
 
 **2015**
 
 Fred W is a student at Namanjalala Secondary School. He lives with his father in a slum a few miles from the school. Fred has been walking to school in the dark early morning hours to arrive at school by their 7 AM reporting time. And it’s dark when he gets home after school. Then he still needs to walk to the well to collect water and make to dinner. He has a scholarship from a local Good Samaritan that covers tuition and books. After checking out his housing and school arrangements, we decided the best we could do for him was to provide a bicycle to save him time on the 1+ hour commute. He’s very pleased! We also paid for gutters to divert rainwater away from their house door and into a barrel for watering the corn growing in their household plat. Rainwater had been running into the house, flooding their packed dirt floor. Fred was lucky to find pants and a shirt from our bags of thrift shop clothes delivered to Kenya from the US.
 
-![Fred](/images/2015-fred.jpg)
+![Fred](/images/2015-fred.jpg){: loading="lazy"}
 
 Josephine has a broken leg as a result of her house roof falling on her two years earlier. She’s had surgery in the district hospital but the fracture does not heal. She has had the cast on for 8 months, without the money to return to the hospital for cast removal, radiographs and followup appointment. Through contacts Walter Reed Army Medical Center we located an American orthopedic surgeon who works out of Tenwek Hospital in Bomet, Kenya. We emailed Dr. Dan Galat, and arranged for Josephine will go to visit him. We promised that Riva Refuge would pay $300 toward the surgery. However, Josephine refused the surgery after visiting Dr. Galat.
 
@@ -64,7 +97,7 @@ I’ve written about Jackline before. On this April visit she was sitting on the
 
 We visited Mama Triplets in her new mud home, which is a better location nearer school and water, farther from the flooding river. But Mama Triplets is a difficult woman. She thinks it is OK to cook a pot of porridge for the ten children in the morning and let them fend for themselves as she goes to visit friends or to work in the fields with them. When I ask what I can do to help her, her only answer is that I could give her 3000 KSH to start a business of buying and reselling vegetables. She doesn’t recognize that her children, ranging from 9 months to 14 years, need her to feed and nurture them.
 
-![School assembly](/images/school-assembly-with-flag.jpg)
+![School assembly](/images/school-assembly-with-flag.jpg){: loading="lazy"}
 
 **2013**
 
@@ -73,7 +106,7 @@ Kenya, to boost a small Sunday Library program serving the children from a
 local shantytown. The head librarian said in an email, "I was delighted to
 have exactly 100 kids come to the library on Sunday! There were 98 the 2
 preceding weeks."
-![Library book day April 2013](/images/Library-book-day-April-2013.jpg)
+![Library book day April 2013](/images/Library-book-day-April-2013.jpg){: loading="lazy"}
 - The final report from the 2012 Anti-Female Genital Mutilation program
 arrived from western Tanzania, telling us that our grant provided food for 350
 girls in the 6 week in-residence program, as well as personal hygiene products
@@ -93,7 +126,7 @@ the shoe store for their first pairs of school shoes. Students are not allowed
 to go to school without black oxford shoes and a school uniform. These twelve
 were very happy both for the shoes and the trip to the shoe store in tuk-tuks
 also known as auto rickshaws.
-![Shoe shopping April 2013](/images/Shoe-shopping-April-2013.jpg)![Tuk-tuk and shoes](/images/Tuk-tuk-and-shoes.jpg)
+![Shoe shopping April 2013](/images/Shoe-shopping-April-2013.jpg){: loading="lazy"}![Tuk-tuk and shoes](/images/Tuk-tuk-and-shoes.jpg){: loading="lazy"}
 - One of our longtime student friends from Mama Ngina Children’s Home reached
 an age where he was no longer eligible for care at the orphanage. Sadly, that
 is age 16 and finished with 8th grade. He was kindly taken in by another of
@@ -134,7 +167,7 @@ anatomically correct dolls for ChildLink, a Kisumu NGO that networks among
 abused children, police, children’s services, hospitals, social workers, etc.
 Children use the dolls to help them show what has happened to them as they try
 to explain events to police, social workers, and hospital staff.
-![Bottle Toy](/images/IMG_1629.jpg)
+![Bottle Toy](/images/IMG_1629.jpg){: loading="lazy"}
 We made dozens of clothes pin dolls for the children who visit ChildLink so
 that each child has a little take-away gift after visiting ChildLink.
 - Lastly, we donated $1000 for operational expenses at ChildLink. The staff at
