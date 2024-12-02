@@ -30,6 +30,3 @@ menuEntry: home
 
 	</section>
 
-	<section>
-		{%include twitter-timeline.html %}
-	</section>
