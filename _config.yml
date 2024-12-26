@@ -22,3 +22,7 @@ markdown: kramdown
 exclude: [params.json, .DS_Store, LICENSE, README.md, feed.xml, js/npm.js, js/bootstrap.js]
 
 include: [README.md, LICENSE]
+
+sass:
+  sass_dir: _sass
+  style: compressed
