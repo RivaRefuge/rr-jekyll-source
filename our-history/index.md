@@ -11,6 +11,8 @@ over a decade with service projects in Kenya, Mexico, Panama, Costa Rica,
 Haiti, USA, and other countries.
 
 **2024**
+
+
 After two years of COVID pandemic we returned to Kenya in November, 2022. Surprisingly, there were only 101 deaths due to COVID per 1 million people. By comparison, the United States had 3,700 COVID deaths per 1 million people. Kenya schools closed for the entire 2020 school year which eliminated exposure in cramped classroom settings. However, the close living conditions in the slums would increase contagion.
 We took duffel bags of clothing and shoes.
 
