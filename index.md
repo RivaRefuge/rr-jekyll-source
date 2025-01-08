@@ -20,10 +20,9 @@ menuEntry: home
 {{ campaigns_content | markdownify }}
 
 
-		{% include mission.html %}
+{% include mission.html %}
 
-
-		{% include donate.html %}
+{% include donate.html %}
 
 	</section>
 
