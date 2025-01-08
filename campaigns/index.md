@@ -13,6 +13,9 @@ Riva Refuge is a small, secular non-profit organization that helps children, you
 {% endcapture %}
 {{ campaigns_content | markdownify }}
 
+{% capture mission_content %}
 {% include mission.html %}
+{% endcapture %}
+{{ mission_content | markdownify }}
 
 

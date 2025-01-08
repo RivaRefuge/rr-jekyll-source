@@ -20,7 +20,10 @@ menuEntry: home
 {{ campaigns_content | markdownify }}
 
 
+{% capture mission_content %}
 {% include mission.html %}
+{% endcapture %}
+{{ mission_content | markdownify }}
 
 {% include donate.html %}
 
