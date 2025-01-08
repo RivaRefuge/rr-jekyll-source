@@ -13,8 +13,6 @@ Riva Refuge is a small, secular non-profit organization that helps children, you
 {%- comment -%}
 {% include campaigns.md %}
 {%- endcomment -%}
-{% assign campaigns_content = include_relative campaigns.md %}
-{{ campaigns_content | markdownify }}
-
+{% include_relative campaigns.md %}
 
 Our mission is to elevate the well-being of disadvantaged people, empowering them to succeed. We work in several countries in Africa and sometimes in Central America, the Caribbean and the United States. We are a "Volunteer Only" organization with no paid staff.

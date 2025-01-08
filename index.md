@@ -15,8 +15,7 @@ menuEntry: home
 		three projects that need assistance:
 
 		<hr>
-		{% assign campaigns_content = include_relative campaigns.md %}
-		{{ campaigns_content | markdownify }}
+		{% include_relative campaigns.md %}
 		<hr>
 		<ul>
 		  <li><a href="../campaigns/jadelle-family-planning-program/">Jadelle contraception program</a></li>
