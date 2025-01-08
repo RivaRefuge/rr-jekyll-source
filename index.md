@@ -14,16 +14,10 @@ menuEntry: home
 		children, youth, young women, disabled, and elderly. Presently, we have
 		three projects that need assistance:
 
-{% capture campaigns_content %}
-{% include campaigns.md %}
-{% endcapture %}
-{{ campaigns_content | markdownify }}
-
-		<ul>
-		  <li><a href="../campaigns/jadelle-family-planning-program/">Jadelle contraception program</a></li>
-		  <li><a href="../campaigns/scholarship-program/">Scholarships for disadvantaged children/youth</a></li>
-		  <li><a href="../campaigns/matisi-food-medicine/">Matisi Food and Medicine</a></li>
-		</ul>
+		{% capture campaigns_content %}
+		{% include campaigns.md %}
+		{% endcapture %}
+		{{ campaigns_content | markdownify }}
 
 		Our mission is to elevate the well-being of disadvantaged people, empowering them to succeed. We work in several countries in Africa and sometimes in Central America, the Caribbean and the United States. We are a volunteer only organization with no paid staff.
 
