@@ -14,9 +14,11 @@ menuEntry: home
 		children, youth, young women, disabled, and elderly. Presently, we have
 		three projects that need assistance:
 
-		<hr>
-		{% include_relative campaigns.md %}
-		<hr>
+{% capture campaigns_content %}
+{% include campaigns.md %}
+{% endcapture %}
+{{ campaigns_content | markdownify }}
+
 		<ul>
 		  <li><a href="../campaigns/jadelle-family-planning-program/">Jadelle contraception program</a></li>
 		  <li><a href="../campaigns/scholarship-program/">Scholarships for disadvantaged children/youth</a></li>
