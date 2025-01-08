@@ -5,7 +5,9 @@ menuEntry: campaigns
 ---
 
 
-**At-Risk Scholars Get a Hand-Up** We sponsor the neediest of students, usually
+**At-Risk Scholars Get a Hand-Up** 
+
+We sponsor the neediest of students, usually
 in Kenya, and typically orphans. Sometimes we will sponsor a student who still
 has one parent if that parent has a disability. We provide scholarships for high
  school, university, polytechnic (trade) school, and rehabilitation schools.
