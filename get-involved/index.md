@@ -13,11 +13,9 @@ You can give by PayPal or by check to Riva Refuge, Inc. at 10 West Bluff Drive, 
 
 {% include donate.html %}
 
+Join Us as a Volunteer! We’re currently seeking:
 
-Volunteer! Currently we need:
-
-- Career counselor or high school teacher to be an email pal with one of our
-scholarship students.
-- Bookkeeper or accountant to work for a couple of hours a month.
-- Accompany us on a site visit.
+- A career counselor or high school teacher to connect with one of our scholarship students as an email mentor.
+- A bookkeeper or accountant to assist us for a few hours each month.
+- Helpers to join us for some site visits.
 - Call us at [970-480-RIVA](tel:970-480-RIVA) to talk about ways you can help.

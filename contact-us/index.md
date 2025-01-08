@@ -4,6 +4,10 @@ title: Contact Us
 menuEntry: contact
 ---
 
+
+![Adhoc ball](/images/images3.jpg)
+
+
 {% comment %}
 <iframe id="wufooFormz7x4a3" class="wufoo-form-container" height="514" allowtransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="http://lumberjill.wufoo.com/embed/z7x4a3/def/embedKey=z7x4a3884702&amp;entsource=&amp;referrer=http%3Awuslashwuslashrivarefuge.orgwuslashour-visionwuslash"><a href="http://lumberjill.wufoo.com/forms/z7x4a3/" title="html form">Fill out my Wufoo form!</a></iframe>
 

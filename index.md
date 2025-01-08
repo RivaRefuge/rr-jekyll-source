@@ -12,15 +12,15 @@ menuEntry: home
 
 		Riva Refuge is a small, secular non-profit organization that helps
 		children, youth, young women, disabled, and elderly. Presently, we have
-		four projects that need assistance:
-		{% comment %}
-		<!-- Why isn't campaigns.md being parsed as markdown here??? -->
-		{% include campaigns.md %}
-		{% endcomment %}
+		three projects that need assistance:
+
+		<hr>
+		{% assign campaigns_content = include_relative campaigns.md %}
+		{{ campaigns_content | markdownify }}
+		<hr>
 		<ul>
 		  <li><a href="../campaigns/jadelle-family-planning-program/">Jadelle contraception program</a></li>
 		  <li><a href="../campaigns/scholarship-program/">Scholarships for disadvantaged children/youth</a></li>
-		  <li><a href="../campaigns/anti-fgm-drive/">Support for Girls at Anti-Female Genital Mutilation Safe-Camp in Tanzania</a></li>
 		  <li><a href="../campaigns/matisi-food-medicine/">Matisi Food and Medicine</a></li>
 		</ul>
 

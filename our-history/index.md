@@ -10,6 +10,15 @@ organization in 2009. However, the core staff of Riva has been volunteering for
 over a decade with service projects in Kenya, Mexico, Panama, Costa Rica,
 Haiti, USA, and other countries.
 
+**2024**
+After two years of COVID pandemic we returned to Kenya in November, 2022. Surprisingly, there were only 101 deaths due to COVID per 1 million people. By comparison, the United States had 3,700 COVID deaths per 1 million people. Kenya schools closed for the entire 2020 school year which eliminated exposure in cramped classroom settings. However, the close living conditions in the slums would increase contagion.
+We took duffel bags of clothing and shoes.
+
+Below are some happy children with new outfits:
+
+![Surviving shirts](/images/2024-p0.jpg){: loading="lazy"}
+![Johnston and little sister](/images/2024-p1.jpg){: loading="lazy"}
+![Two happy kids with new clothes.](/images/2024-p2.jpg){: loading="lazy"}
 
 **2019**
 
