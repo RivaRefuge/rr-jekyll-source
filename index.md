@@ -14,12 +14,14 @@ menuEntry: home
 		children, youth, young women, disabled, and elderly. Presently, we have
 		three projects that need assistance:
 
-		{% capture campaigns_content %}
-		{% include campaigns.md %}
-		{% endcapture %}
-		{{ campaigns_content | markdownify }}
+{% capture campaigns_content %}
+{% include campaigns.md %}
+{% endcapture %}
+{{ campaigns_content | markdownify }}
 
-		Our mission is to elevate the well-being of disadvantaged people, empowering them to succeed. We work in several countries in Africa and sometimes in Central America, the Caribbean and the United States. We are a volunteer only organization with no paid staff.
+
+		{% include mission.html %}
+
 
 		{% include donate.html %}
 
