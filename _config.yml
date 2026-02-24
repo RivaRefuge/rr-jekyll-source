@@ -44,4 +44,5 @@ exclude:
   - .ruby-version
   - Gemfile
   - Gemfile.lock
+  - node_modules
 
