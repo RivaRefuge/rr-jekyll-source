@@ -1,35 +1,28 @@
-<nav class="site-nav">
-	<div class="navbar navbar-default">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<img id="menu-logo" src="{{  site.url }}/images/rrlogo-only.png" alt="Logo">
-				<a class="navbar-brand {% if page.menuEntry == 'home' %}active{% endif %}" href="{{  site.url }}/">
-					<span style="color:red;">Riva</span> <span style="color:black;">Refuge</span>
-				</a>
-			</div>
-			<div class="collapse navbar-collapse" id="navbar-collapse-1">
-				<ul class="nav navbar-nav">
-					<li class="dropdown {% if page.menuEntry == "campaigns" %}active {% endif %}">
-						<a href="{{  site.url }}/campaigns/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Campaigns <span class="caret"></span></a>
-						<ul class="dropdown-menu" role="menu">
-								<li><a href="{{  site.url }}/campaigns/jadelle-family-planning-program/">Jadelle® Family Planning Program</a></li>
-								<li><a href="{{  site.url }}/campaigns/scholarship-program/">Scholarship Program</a></li>
-								<li><a href="{{  site.url }}/campaigns/matisi-food-medicine/">Matisi Food and Medicine</a></li>
-						</ul>
-					</li>
-					<li class="{% if page.menuEntry == "ourvision" %}active {% endif %}"><a href="{{  site.url }}/our-vision">Our Vision</a></li>
-					<li class="{% if page.menuEntry == "getinvolved" %}active {% endif %}"><a href="{{  site.url }}/get-involved">Get Involved</a></li>
-					<li class="{% if page.menuEntry == "history" %}active {% endif %}"><a href="{{  site.url }}/our-history">Our History</a></li>
-					<li class="{% if page.menuEntry == "board" %}active {% endif %}"><a href="{{  site.url }}/board-of-directors">Board of Directors</a></li>
-					<li class="{% if page.menuEntry == "contact" %}active {% endif %}"><a href="{{  site.url }}/contact-us">Contact</a></li>
-				</ul>
-			</div>
+<nav class="site-nav navbar navbar-expand-md navbar-light bg-white border-bottom">
+	<div class="container-fluid">
+		<a class="navbar-brand {% if page.menuEntry == 'home' %}active{% endif %}" href="{{ site.url }}/">
+			<img id="menu-logo" src="{{ '/images/rrlogo-only.png' | relative_url }}" alt="Riva Refuge logo">
+			<span class="brand-riva">Riva</span> <span class="brand-refuge">Refuge</span>
+		</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse-1" aria-controls="navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+			<ul class="navbar-nav">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle {% if page.menuEntry == "campaigns" %}active{% endif %}" href="{{ site.url }}/campaigns/" data-bs-toggle="dropdown" aria-expanded="false">Campaigns</a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="{{ site.url }}/campaigns/jadelle-family-planning-program/">Jadelle® Family Planning Program</a></li>
+						<li><a class="dropdown-item" href="{{ site.url }}/campaigns/scholarship-program/">Scholarship Program</a></li>
+						<li><a class="dropdown-item" href="{{ site.url }}/campaigns/matisi-food-medicine/">Matisi Food and Medicine</a></li>
+					</ul>
+				</li>
+				<li class="nav-item"><a class="nav-link {% if page.menuEntry == "ourvision" %}active{% endif %}" href="{{ site.url }}/our-vision">Our Vision</a></li>
+				<li class="nav-item"><a class="nav-link {% if page.menuEntry == "getinvolved" %}active{% endif %}" href="{{ site.url }}/get-involved">Get Involved</a></li>
+				<li class="nav-item"><a class="nav-link {% if page.menuEntry == "history" %}active{% endif %}" href="{{ site.url }}/our-history">Our History</a></li>
+				<li class="nav-item"><a class="nav-link {% if page.menuEntry == "board" %}active{% endif %}" href="{{ site.url }}/board-of-directors">Board of Directors</a></li>
+				<li class="nav-item"><a class="nav-link {% if page.menuEntry == "contact" %}active{% endif %}" href="{{ site.url }}/contact-us">Contact</a></li>
+			</ul>
 		</div>
 	</div>
 </nav>
