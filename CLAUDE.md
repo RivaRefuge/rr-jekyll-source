@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is the Astro static site for **Riva Refuge** (www.rivarefuge.org), a small secular non-profit. It is deployed to GitHub Pages via GitHub Actions on every push to `master`.
+This is the Astro static site for **Riva Refuge** (www.rivarefuge.org), a small secular non-profit. Repo: `RivaRefuge/riva-refuge-website`. Deployed to GitHub Pages via GitHub Actions on every push to `master`.
 
 ## Commands
 
