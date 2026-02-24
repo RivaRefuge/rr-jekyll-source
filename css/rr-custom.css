@@ -1,7 +1,9 @@
+.brand-riva { color: red; }
+.brand-refuge { color: black; }
 #menu-logo{
   width:50px;
-  padding-top:10px;
-  display:inline;
+  display:inline-block;
+  vertical-align:middle;
 }
 .navbar-brand{
   font-weight: 500;
@@ -11,6 +13,9 @@ img{
   display: block;
   max-width: 100%;
   height: auto;
+}
+.navbar-brand img{
+  display: inline-block;
 }
 .social-media-list{
   list-style-type: none;
