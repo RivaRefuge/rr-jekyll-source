@@ -1,10 +1,30 @@
+# Astro build output
+dist/
+# Astro generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment variables
+.env
+.env.production
+
+# Jekyll (kept for reference if switching branches)
 .sass-cache/
 .jekyll-metadata
 _site/
 .jekyll-cache
 
-
-# Numerous always-ignore extensions
+# OS / editor
+*.DS_Store
+*.cache
 *.diff
 *.err
 *.orig
@@ -14,11 +34,3 @@ _site/
 *.swp
 *.vi
 *~
-
-# OS or Editor folders
-*.DS_Store
-*.cache
-*.project
-*.settings
-*nbproject
-*thumbs.db
