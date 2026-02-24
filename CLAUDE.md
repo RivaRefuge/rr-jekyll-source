@@ -40,8 +40,7 @@ _layouts/default.html       # Main wrapper (centered col-md-6 content)
 
 - `_includes/mission.html` — Mission statement, included on the home page and campaigns index
 - `_includes/campaigns.md` — Campaign listing (rendered via the custom `{% markdown %}` tag)
-- `_includes/donate.html` — Embedded donation form
-- `_includes/twitter-timeline.html` — Twitter widget
+- `_includes/donate.html` — Embedded donation form (PayPal legacy button)
 
 ### Campaigns
 
@@ -54,14 +53,12 @@ Three campaign sub-pages live under `/campaigns/`:
 
 - `_plugins/sitemap_generator.rb` — Generates `/sitemap.xml`
 - `_plugins/markdown.rb` — Custom `{% markdown %}` Liquid tag
-- `_plugins/jekyll-press-plugin.rb` — Minification stub
 
 ### Styling
 
-- Bootstrap 5.3.2 loaded via CDN in `_includes/head.html` (the `bootstrap` gem in Gemfile provides SCSS source but its compiled output is not loaded)
-- Font Awesome 6.4.0 loaded via cdnjs CDN
-- Custom styles in `css/rr-custom.css`
-- `css/main.scss` and `_sass/` exist but their compiled output is not referenced in any template — treat as unused legacy
+- Bootstrap 5.3.2 via CDN (`_includes/head.html`)
+- Font Awesome 6.4.0 via cdnjs CDN (`_includes/head.html`)
+- Custom styles in `css/rr-custom.css` (the only local stylesheet)
 
 ### Deployment
 
