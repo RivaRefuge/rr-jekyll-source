@@ -1,0 +1,11 @@
+---
+import { Image } from 'astro:assets';
+import Layout from '../layouts/Layout.astro';
+import DonateButton from '../components/DonateButton.astro';
+import hero from '../assets/images/fp-hero.jpg';
+---
+<Layout title="Not Found" menuEntry="home">
+  <Image src={hero} alt="Linked arms symbolizing unity and support among diverse individuals." width={670} loading="eager" />
+  <p>Page not found. Please choose a different page from the menu.</p>
+  <DonateButton />
+</Layout>

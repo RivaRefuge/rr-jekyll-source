@@ -1,3 +1,0 @@
-- [Jadelle contraception program](../campaigns/jadelle-family-planning-program/)
-- [Scholarships for disadvantaged children/youth](../campaigns/scholarship-program/)
-- [Matisi Food and Medicine](../campaigns/matisi-food-medicine/)
