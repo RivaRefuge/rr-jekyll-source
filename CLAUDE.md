@@ -4,62 +4,94 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is the Jekyll static site for **Riva Refuge** (www.rivarefuge.org), a small secular non-profit. It is deployed to GitHub Pages via GitHub Actions on every push to `master`.
+This is the Astro static site for **Riva Refuge** (www.rivarefuge.org), a small secular non-profit. It is deployed to GitHub Pages via GitHub Actions on every push to `master`.
 
 ## Commands
 
 ```bash
-export PATH="/usr/local/opt/ruby@3.2/bin:$PATH"  # Required — macOS system Ruby is too old
-bundle install              # Install Ruby dependencies
-bundle exec jekyll serve    # Serve locally at http://localhost:4000
-bundle exec jekyll build    # Build to _site/
+npm install                 # Install dependencies
+npm run dev                 # Serve locally at http://localhost:4321/
+npm run build               # Build to dist/
+npm run preview             # Preview the dist/ build locally
 ```
-
-No Makefile or package.json — this is a pure Jekyll/Ruby project. Requires Homebrew Ruby 3.2+ (`brew install ruby@3.2`); the macOS system Ruby (2.6) is incompatible with current gems.
 
 ## Architecture
 
-### Template Hierarchy
+### File Structure
 
 ```
-_layouts/default.html       # Main wrapper (centered col-md-6 content)
-├── _includes/head.html
-├── _includes/header.html
-│   └── _includes/navigation.html
-├── _layouts/page.html      # Used by most content pages
-└── _includes/footer.html
+src/
+  layouts/
+    Layout.astro            # Main wrapper: head, nav, content column, footer
+  components/
+    Nav.astro               # Responsive Bootstrap navbar (active state via menuEntry prop)
+    Footer.astro            # Footer: email, Facebook, tagline
+    DonateButton.astro      # PayPal Donate SDK button
+  assets/
+    images/                 # All site images — processed to WebP at build time
+  pages/                    # One .astro file per route
+    index.astro
+    404.astro
+    campaigns/
+      index.astro
+      jadelle-family-planning-program/index.astro
+      scholarship-program/index.astro
+      matisi-food-medicine/index.astro
+    our-history/index.astro
+    our-vision/index.astro
+    board-of-directors/index.astro
+    contact-us/index.astro
+    get-involved/index.astro
+    thanks/index.astro
+public/
+  css/rr-custom.css         # Only local stylesheet
+  CNAME                     # Custom domain: www.rivarefuge.org
+  robots.txt
+  favicon.ico / favicon.svg
+_source-images/             # Working source files for images (not served)
 ```
 
-`_layouts/donation.html` is an alternate layout used for donation-specific pages, with `_includes/headdonation.html` instead of the standard head.
+### Layout Props
 
-### Custom Liquid Tag
+Every page passes props to `Layout.astro`:
 
-`_plugins/markdown.rb` registers a `{% markdown <filename> %}` tag that loads a file from `_includes/`, runs it through Liquid, then converts it with Kramdown. This allows markdown includes that support template variables (unlike the standard `{% include %}` tag).
+```astro
+<Layout title="Page Title" menuEntry="history" description="SEO description">
+```
 
-### Content Includes
+- `title` — page title; home page uses `"Riva Refuge"`, others use `"Page Title | Riva Refuge"`
+- `menuEntry` — highlights the active nav item: `home`, `campaigns`, `ourvision`, `getinvolved`, `history`, `board`, `contact`
+- `description` — meta description for SEO (falls back to site-wide default if omitted)
 
-- `_includes/mission.html` — Mission statement, included on the home page and campaigns index
-- `_includes/campaigns.md` — Campaign listing (rendered via the custom `{% markdown %}` tag)
-- `_includes/donate.html` — Embedded donation form (PayPal legacy button)
+### Images
 
-### Campaigns
+Images live in `src/assets/images/` and are imported at the top of each page:
 
-Three campaign sub-pages live under `/campaigns/`:
-- `jadelle-family-planning-program/`
-- `scholarship-program/`
-- `matisi-food-medicine/`
+```astro
+---
+import { Image } from 'astro:assets';
+import hero from '../../assets/images/fp-hero.jpg';
+---
+<Image src={hero} alt="Description" />
+```
 
-### Plugins
+- Astro converts images to WebP and infers dimensions automatically
+- Hero/first images: add `width={670} loading="eager" fetchpriority="high"`
+- All other images: no extra attributes needed (lazy loading is the default)
 
-- `_plugins/sitemap_generator.rb` — Generates `/sitemap.xml`
-- `_plugins/markdown.rb` — Custom `{% markdown %}` Liquid tag
+### Adding a New Page
+
+1. Create `src/pages/<slug>/index.astro`
+2. Import `Layout` and any images
+3. Pass `title`, `menuEntry`, and `description` props to `Layout`
+4. Add the route to `Nav.astro` if it should appear in navigation
 
 ### Styling
 
-- Bootstrap 5.3.2 via CDN (`_includes/head.html`)
-- Font Awesome 6.4.0 via cdnjs CDN (`_includes/head.html`)
-- Custom styles in `css/rr-custom.css` (the only local stylesheet)
+- Bootstrap 5.3.2 via CDN (in `Layout.astro`)
+- Font Awesome 6.4.0 via cdnjs CDN (in `Layout.astro`)
+- Custom styles in `public/css/rr-custom.css`
 
 ### Deployment
 
-GitHub Actions workflow (`.github/workflows/jekyll-gh-pages.yml`) builds and deploys to GitHub Pages on every push to `master`. The custom domain `www.rivarefuge.org` is set via the `CNAME` file.
+GitHub Actions workflow (`.github/workflows/jekyll-gh-pages.yml`) runs `npm ci && npm run build` and deploys `dist/` to GitHub Pages on every push to `master`.
