@@ -41,6 +41,10 @@ exclude:
   - css/bootstrap.min.css
   - css/bootstrap-theme.min.css
   - css/main.scss
+  - CLAUDE.md
+  - .ruby-version
+  - Gemfile
+  - Gemfile.lock
 
 sass:
   sass_dir: _sass
