@@ -28,12 +28,24 @@ import libraryDay from '../../assets/images/Library-book-day-April-2013.jpg';
 import shoeShop from '../../assets/images/Shoe-shopping-April-2013.jpg';
 import tukTuk from '../../assets/images/Tuk-tuk-and-shoes.jpg';
 import doll from '../../assets/images/IMG_1629.jpg';
+
+const years = [2024,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010];
 ---
 <Layout title="Our History" menuEntry="history" description="A chronological look at Riva Refuge's work since 2009 — from scholarships and family planning in Kenya to food programs, medical aid, and community development.">
   <article class="post">
     <header class="post-header">
-      <h1 class="post-title">Our History</h1>
+      <h1 class="post-title" id="top">Our History</h1>
     </header>
+
+    <!-- Sticky year-jump nav -->
+    <nav class="year-nav sticky-top bg-white border-bottom py-2 mb-3" aria-label="Jump to year">
+      <div class="d-flex flex-wrap gap-1">
+        {years.map(y => (
+          <a href={`#y${y}`} class="btn btn-sm btn-outline-secondary">{y}</a>
+        ))}
+      </div>
+    </nav>
+
     <div class="post-content">
       <Image src={historyHero} alt="Collage of Riva Refuge activities" width={886} loading="eager" fetchpriority="high" />
 
@@ -44,7 +56,7 @@ import doll from '../../assets/images/IMG_1629.jpg';
         USA, and other countries.
       </p>
 
-      <h2>2024</h2>
+      <h2 id="y2024">2024 <a href="#top" class="year-top" aria-label="Back to top">↑</a></h2>
 
       <p>
         After two years of COVID pandemic we returned to Kenya in November, 2022.
@@ -61,7 +73,7 @@ import doll from '../../assets/images/IMG_1629.jpg';
       <Image src={p2024_1} alt="Johnston and little sister" />
       <Image src={p2024_2} alt="Two happy kids with new clothes" />
 
-      <h2>2019</h2>
+      <h2 id="y2019">2019 <a href="#top" class="year-top" aria-label="Back to top">↑</a></h2>
 
       <p>
         What a year 2019 was! We have provided JADELLE contraceptive implants to over
@@ -138,7 +150,7 @@ import doll from '../../assets/images/IMG_1629.jpg';
         wish him the very best!
       </p>
 
-      <h2>2018</h2>
+      <h2 id="y2018">2018 <a href="#top" class="year-top" aria-label="Back to top">↑</a></h2>
 
       <p>
         Not all students present us with success stories. Kevin B. ran away from the
@@ -164,7 +176,7 @@ import doll from '../../assets/images/IMG_1629.jpg';
       <Image src={dresses1} alt="Pillowcase dresses" />
       <Image src={dresses2} alt="Pillowcase dresses" />
 
-      <h2>2017</h2>
+      <h2 id="y2017">2017 <a href="#top" class="year-top" aria-label="Back to top">↑</a></h2>
 
       <p>
         Martin is a 41 yr old man who has stage 4 throat cancer. He has a gaping hole
@@ -210,7 +222,7 @@ import doll from '../../assets/images/IMG_1629.jpg';
         providing care for Jerida.
       </p>
 
-      <h2>2016</h2>
+      <h2 id="y2016">2016 <a href="#top" class="year-top" aria-label="Back to top">↑</a></h2>
 
       <p>
         Fred W, our student at Namanjalala Secondary school, is approaching his final
@@ -269,7 +281,7 @@ import doll from '../../assets/images/IMG_1629.jpg';
       <Image src={girl2016} alt="Girl" />
       <Image src={momBaby} alt="Mom and baby" />
 
-      <h2>2015</h2>
+      <h2 id="y2015">2015 <a href="#top" class="year-top" aria-label="Back to top">↑</a></h2>
 
       <p>
         Fred W is a student at Namanjalala Secondary School. He lives with his father in
@@ -335,7 +347,7 @@ import doll from '../../assets/images/IMG_1629.jpg';
         with generous funding from a church in Texas.
       </p>
 
-      <h2>2014</h2>
+      <h2 id="y2014">2014 <a href="#top" class="year-top" aria-label="Back to top">↑</a></h2>
 
       <p>
         We visited Mama Triplets in her new mud home, which is a better location nearer
@@ -350,7 +362,7 @@ import doll from '../../assets/images/IMG_1629.jpg';
 
       <Image src={schoolAssembly} alt="School assembly" />
 
-      <h2>2013</h2>
+      <h2 id="y2013">2013 <a href="#top" class="year-top" aria-label="Back to top">↑</a></h2>
 
       <ul>
         <li>
@@ -400,32 +412,28 @@ import doll from '../../assets/images/IMG_1629.jpg';
         </li>
       </ul>
 
-      <h2>2012</h2>
+      <h2 id="y2012">2012 <a href="#top" class="year-top" aria-label="Back to top">↑</a></h2>
 
       <ul>
         <li>We funded the living expenses of a Micronesian girl during her and her family's stay in the US for her colon surgery. Update: She's doing well back at home!</li>
         <li>We funded boarding school expenses at St. Oda School for the blind for three brothers who have no family other than an aging grandmother.</li>
         <li>We sponsored an alternative to Female Genital Mutilation at a Tanzanian village where the tradition has been cutting girls for generations. They now will have the option of attending a month-long culturally sensitive course as an initiation to womanhood. No more cutting!</li>
-        <li>We provided funds for an emergency medical fund for patients, particularly children, in west Nairobi. These patients drop by a social work center, asking for help. The center has always been strapped for cash to help, but now has a contingency fund.</li>
+        <li>We provided funds for an emergency medical fund for patients, particularly children, in west Nairobi.</li>
         <li>We funded high school for a few students in Kisumu, Kenya.</li>
-        <li>We found volunteers to hand-craft four anatomically correct dolls to be used at Child Link, a social work center that helps child victims of abuse. We also provided them a cash donation to support their operation.</li>
-        <li>We began a roofing project that might turn out to be a technology demonstration of cold formed, light gauge steel frame roofing as an alternative to the typical wooden timber roof frames that don't measure up to international building codes.</li>
-        <li>We funded a staff visit to Pakistan to meet with the families of victims of US drone attacks. By reaching out in peace, we were able to establish bridges from person to person — to remind Pakistanis that many US citizens do not support the US drone attacks within the sovereign Pakistani homeland.</li>
+        <li>We found volunteers to hand-craft four anatomically correct dolls to be used at Child Link, a social work center that helps child victims of abuse.</li>
+        <li>We began a roofing project as a technology demonstration of cold formed, light gauge steel frame roofing.</li>
+        <li>We funded a staff visit to Pakistan to meet with the families of victims of US drone attacks. By reaching out in peace, we were able to establish bridges from person to person.</li>
         <li>
           December 2012 Riva's friends from Maryland, Virginia and Texas made 4
           anatomically correct dolls for ChildLink, a Kisumu NGO that networks among
-          abused children, police, children's services, hospitals, social workers, etc.
-          Children use the dolls to help them show what has happened to them as they try
-          to explain events to police, social workers, and hospital staff.
+          abused children, police, children's services, hospitals, and social workers.
           <br>
           <Image src={doll} alt="Anatomically correct doll" />
-          We made dozens of clothes pin dolls for the children who visit ChildLink so
-          that each child has a little take-away gift after visiting ChildLink.
         </li>
-        <li>Lastly, we donated $1000 for operational expenses at ChildLink. The staff at ChildLink has been remarkably helpful to Riva Refuge in keeping tabs on some of our young friends who are "at risk" teens. ChildLink staff visits them at the children's home and at foster home, as well as escorts Riva staff to schools where teens now attend classes.</li>
+        <li>We donated $1000 for operational expenses at ChildLink.</li>
       </ul>
 
-      <h2>2011</h2>
+      <h2 id="y2011">2011 <a href="#top" class="year-top" aria-label="Back to top">↑</a></h2>
 
       <ul>
         <li>Purchased bunk beds for St. Gerald Children Centre near Nyeri, Kenya; provided bedding for 115 beds</li>
@@ -437,7 +445,7 @@ import doll from '../../assets/images/IMG_1629.jpg';
         <li>Established a microloan program with Kotetni Young Women's Self Help Group, Kisumu, Kenya</li>
       </ul>
 
-      <h2>2010</h2>
+      <h2 id="y2010">2010 <a href="#top" class="year-top" aria-label="Back to top">↑</a></h2>
 
       <ul>
         <li>Sponsored a start-up small business in children's clothing sales</li>
@@ -446,3 +454,24 @@ import doll from '../../assets/images/IMG_1629.jpg';
     </div>
   </article>
 </Layout>
+
+<style>
+  .year-nav {
+    /* sit just below the main navbar (approx 56px tall) */
+    top: 56px;
+    z-index: 99;
+  }
+
+  .year-top {
+    font-size: 0.75rem;
+    font-weight: normal;
+    color: #6c757d;
+    text-decoration: none;
+    margin-left: 0.4rem;
+    vertical-align: middle;
+  }
+
+  .year-top:hover {
+    color: #dc3545;
+  }
+</style>
