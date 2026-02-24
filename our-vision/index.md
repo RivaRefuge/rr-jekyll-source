@@ -4,7 +4,7 @@ title: Our Vision
 menuEntry: ourvision
 ---
 
-![Our Vision image](/images/our-vision-0.jpg)
+![Our Vision image](/images/our-vision-0.jpg){: loading="lazy" width="473" height="349"}
 
 We strive for a compassionate world where people can flourish, living with
 dignity, good health, and happiness. We draw strength from our partnerships

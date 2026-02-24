@@ -40,19 +40,8 @@ exclude:
   - js/bootstrap.min.js
   - css/bootstrap.min.css
   - css/bootstrap-theme.min.css
-  - css/main.scss
   - CLAUDE.md
   - .ruby-version
   - Gemfile
   - Gemfile.lock
 
-sass:
-  sass_dir: _sass
-  style: compressed
-  load_paths:
-      - _sass
-      - node_modules
-  silence_deprecations:
-      - import
-      - global-builtin
-      - color-functions

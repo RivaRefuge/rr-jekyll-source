@@ -4,7 +4,7 @@ title: Get Involved
 menuEntry: getinvolved
 ---
 
-![Adhoc ball](/images/images3.jpg)
+![Adhoc ball](/images/images3.jpg){: loading="lazy" width="670" height="300"}
 
 ### There are several ways to get involved with Riva Refuge:
 
