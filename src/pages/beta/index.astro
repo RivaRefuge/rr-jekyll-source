@@ -1,0 +1,397 @@
+---
+/* Beta one-pager — completely self-contained, no shared components */
+import { Image } from 'astro:assets';
+import heroImg from '../../assets/images/fp-hero.jpg';
+import visionImg from '../../assets/images/our-vision-0.jpg';
+import historyImg from '../../assets/images/our-history.jpg';
+import clothesImg from '../../assets/images/2024-p0.jpg';
+import kidsImg from '../../assets/images/2024-p2.jpg';
+import judyImg from '../../assets/images/2019-judy.jpg';
+import nutritionImg from '../../assets/images/2019-p1.jpg';
+import dressesImg from '../../assets/images/2018-pillowcasedresses1.jpg';
+import logoImg from '../../assets/images/rrlogo-only.png';
+
+const title = "Riva Refuge — Fighting Root Causes of Poverty";
+const description = "Riva Refuge is a secular non-profit empowering disadvantaged communities through family planning, scholarships, and food and medicine programs in Kenya and beyond.";
+const canonicalURL = new URL('/beta/', 'https://www.rivarefuge.org');
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonicalURL} />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="/css/beta.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl0HPNiecjHEM7FnGQAU1e3tOU/WnJiB8JPA5aafDEhTuMFBm5JZef+IehljEmW5SDLRI+iH+LFfA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="beta-nav" id="nav">
+  <div class="beta-nav-inner">
+    <a href="#hero" class="beta-nav-brand">
+      <Image src={logoImg} alt="" width={38} loading="eager" />
+      <span><span class="brand-riva">Riva</span> <span class="brand-refuge">Refuge</span></span>
+    </a>
+    <button class="beta-nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <ul class="beta-nav-links" id="navLinks">
+      <li><a href="#campaigns">Programs</a></li>
+      <li><a href="#vision">Vision</a></li>
+      <li><a href="#stories">Stories</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#involved" class="beta-nav-cta">Donate</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<section class="beta-hero" id="hero">
+  <div class="beta-hero-bg">
+    <Image src={heroImg} alt="Community in Kenya" width={1400} loading="eager" fetchpriority="high" />
+  </div>
+  <div class="beta-hero-content">
+    <h1>Fighting Root Causes&nbsp;of&nbsp;Poverty</h1>
+    <p class="beta-hero-tagline">
+      Riva Refuge is a small, secular non-profit empowering disadvantaged
+      communities through healthcare, education, and direct&nbsp;aid.
+    </p>
+    <p class="beta-hero-sub">
+      All-volunteer. No paid staff. Every dollar goes further.
+    </p>
+    <a href="#involved" class="btn-hero">Get Involved</a>
+  </div>
+  <div class="scroll-indicator" aria-hidden="true">
+    <i class="fa-solid fa-chevron-down"></i>
+  </div>
+</section>
+
+<!-- ============ IMPACT STATS ============ -->
+<section class="beta-impact">
+  <div class="beta-container">
+    <div class="impact-grid">
+      <div class="impact-stat">
+        <h3>19,000+</h3>
+        <p>Women Served</p>
+      </div>
+      <div class="impact-stat">
+        <h3>15+</h3>
+        <p>Years of Impact</p>
+      </div>
+      <div class="impact-stat">
+        <h3>100+</h3>
+        <p>Families Fed Weekly</p>
+      </div>
+      <div class="impact-stat">
+        <h3>100%</h3>
+        <p>Volunteer-Run</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CAMPAIGNS ============ -->
+<section class="beta-section bg-warm" id="campaigns">
+  <div class="beta-container">
+    <div style="text-align:center; margin-bottom:3rem;">
+      <span class="section-label">Our Programs</span>
+      <h2 class="section-heading">Three Ways We Make a Difference</h2>
+      <p class="section-intro center">
+        We partner with local organizations in Kenya to deliver programs
+        that address immediate needs and create lasting change.
+      </p>
+    </div>
+    <div class="campaigns-grid">
+      <!-- Jadelle -->
+      <div class="campaign-card">
+        <div class="campaign-card-img">
+          <Image src={visionImg} alt="Women in community health program" width={500} />
+        </div>
+        <div class="campaign-card-body">
+          <h3>Family Planning</h3>
+          <p class="stat">19,000+ women in 10 years</p>
+          <p>
+            Free Jadelle&reg; contraceptive implants give women in Kitale's
+            slums the power to plan their families. A five-year reversible
+            solution that changes lives.
+          </p>
+        </div>
+      </div>
+      <!-- Scholarships -->
+      <div class="campaign-card">
+        <div class="campaign-card-img">
+          <Image src={judyImg} alt="Scholarship student Judy" width={500} />
+        </div>
+        <div class="campaign-card-body">
+          <h3>Scholarships</h3>
+          <p class="stat">High school through university</p>
+          <p>
+            We sponsor at-risk and orphaned students through school,
+            covering tuition, uniforms, books, and supplies — giving them
+            a genuine path forward.
+          </p>
+        </div>
+      </div>
+      <!-- Matisi -->
+      <div class="campaign-card">
+        <div class="campaign-card-img">
+          <Image src={nutritionImg} alt="Food distribution in Matisi" width={500} />
+        </div>
+        <div class="campaign-card-body">
+          <h3>Food &amp; Medicine</h3>
+          <p class="stat">100+ families every week</p>
+          <p>
+            Weekly food baskets and medical transport for Matisi
+            slum residents — mostly grandmothers raising
+            HIV-orphaned grandchildren.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VISION ============ -->
+<section class="beta-section" id="vision">
+  <div class="beta-container">
+    <div class="story-grid">
+      <div>
+        <div class="story-img">
+          <Image src={historyImg} alt="Community gathering" width={550} />
+        </div>
+      </div>
+      <div class="story-text">
+        <span class="section-label">Our Vision</span>
+        <h3>A compassionate world where people can flourish</h3>
+        <p>
+          We envision communities where everyone lives with dignity, good
+          health, and happiness. Riva Refuge partners with local NGOs and
+          government groups to deliver focused, sustainable programs.
+        </p>
+        <ul class="vision-list" style="margin-top:1.5rem;">
+          <li>
+            <div class="vision-icon"><i class="fa-solid fa-briefcase"></i></div>
+            <div>
+              <h4>Economic Opportunity</h4>
+              <p>Microloans and small business support</p>
+            </div>
+          </li>
+          <li>
+            <div class="vision-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div>
+              <h4>Education</h4>
+              <p>Scholarships for disadvantaged students</p>
+            </div>
+          </li>
+          <li>
+            <div class="vision-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+            <div>
+              <h4>Health</h4>
+              <p>Disease prevention and treatment</p>
+            </div>
+          </li>
+          <li>
+            <div class="vision-icon"><i class="fa-solid fa-children"></i></div>
+            <div>
+              <h4>Children</h4>
+              <p>Supporting orphanages and youth programs</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STORIES ============ -->
+<section class="beta-section bg-warm" id="stories">
+  <div class="beta-container">
+    <div style="text-align:center; margin-bottom:3rem;">
+      <span class="section-label">Real Impact</span>
+      <h2 class="section-heading">Stories That Drive Us</h2>
+      <p class="section-intro center">
+        Since 2010, we have been on the ground making a difference — one
+        family, one student, one community at a time.
+      </p>
+    </div>
+
+    <!-- Story 1 -->
+    <div class="story-grid" style="margin-bottom:4rem;">
+      <div class="story-text">
+        <h3>Judy's Journey</h3>
+        <p>
+          Judy grew up at Mama Ngina Children's Home. With Riva Refuge's
+          support, she completed college and built an independent life.
+          Her sister Noreen followed the same path. Both are now thriving
+          — proof that a hand up at the right time changes everything.
+        </p>
+      </div>
+      <div class="story-img">
+        <Image src={kidsImg} alt="Happy children with new clothes" width={500} />
+      </div>
+    </div>
+
+    <!-- Story 2 -->
+    <div class="story-grid reverse">
+      <div class="story-text">
+        <h3>Delivering Hope, Post-COVID</h3>
+        <p>
+          In November 2022, our team returned to Kenya after the pandemic
+          pause. We delivered clothing and shoes to children who had gone
+          without, reconnected with scholarship students, and relaunched
+          our weekly nutrition program — serving over 100 families each week.
+        </p>
+      </div>
+      <div class="story-img">
+        <Image src={clothesImg} alt="Children receiving new clothes in 2024" width={500} />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GET INVOLVED ============ -->
+<section class="beta-cta" id="involved">
+  <div class="beta-container">
+    <span class="section-label" style="color:#ff6b6b;">Make a Difference</span>
+    <h2 class="section-heading">Get Involved</h2>
+    <p class="section-intro center">
+      Every contribution — money, time, or skills — goes directly to the
+      people who need it. We have no paid staff and minimal overhead.
+    </p>
+
+    <div class="cta-options">
+      <div class="cta-card">
+        <div class="cta-card-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+        <h3>Donate</h3>
+        <p>Give via PayPal online or mail a check to Riva Refuge, Inc., 10 West Bluff Drive, Port Angeles WA 98362.</p>
+      </div>
+      <div class="cta-card">
+        <div class="cta-card-icon"><i class="fa-solid fa-people-group"></i></div>
+        <h3>Volunteer</h3>
+        <p>Mentor a scholarship student, help with bookkeeping, or join a site visit to Kenya.</p>
+      </div>
+      <div class="cta-card">
+        <div class="cta-card-icon"><i class="fa-solid fa-share-nodes"></i></div>
+        <h3>Spread the Word</h3>
+        <p>Follow us on Facebook and share our mission with your network.</p>
+      </div>
+    </div>
+
+    <!-- PayPal Donate Button -->
+    <div class="paypal-wrap">
+      <div id="paypal-donate-button-container"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BOARD ============ -->
+<section class="beta-section" id="team">
+  <div class="beta-container" style="text-align:center;">
+    <span class="section-label">Leadership</span>
+    <h2 class="section-heading">Board of Directors</h2>
+    <p class="section-intro center">
+      Our all-volunteer board receives no compensation. They are elected
+      by members at the annual meeting.
+    </p>
+    <div class="board-row">
+      <div class="board-member">
+        <div class="board-member-avatar"><i class="fa-solid fa-user"></i></div>
+        <h4>Lorna VanderZanden</h4>
+        <p>President &amp; CEO</p>
+      </div>
+      <div class="board-member">
+        <div class="board-member-avatar"><i class="fa-solid fa-user"></i></div>
+        <h4>Sue Goodwin</h4>
+        <p>Vice-President</p>
+      </div>
+      <div class="board-member">
+        <div class="board-member-avatar"><i class="fa-solid fa-user"></i></div>
+        <h4>Marla Taylor</h4>
+        <p>Secretary / Treasurer</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT (mini) ============ -->
+<section class="beta-section bg-warm" style="padding:3rem 0;">
+  <div class="beta-container" style="text-align:center;">
+    <h2 class="section-heading" style="font-size:1.6rem;">Contact Us</h2>
+    <p style="color:#666; margin-bottom:0.5rem;">
+      <a href="mailto:contact@rivarefuge.org">contact@rivarefuge.org</a>
+      &nbsp;&bull;&nbsp; 970-480-RIVA
+    </p>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="beta-footer">
+  <div class="footer-inner">
+    <span>&copy; {new Date().getFullYear()} Riva Refuge, Inc. &mdash; 501(c)(3) Non-Profit</span>
+    <div class="footer-links">
+      <a href="mailto:contact@rivarefuge.org" aria-label="Email">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+      <a href="https://www.facebook.com/Riva-Refuge-Inc-177593545669926" target="_blank" rel="noopener" aria-label="Facebook">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+    </div>
+    <span class="footer-tagline">Fighting Root Causes of Poverty</span>
+  </div>
+</footer>
+
+<!-- ============ SCRIPTS ============ -->
+<script is:inline>
+  // Nav scroll shadow
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 10);
+  });
+
+  // Mobile menu toggle
+  const toggle = document.getElementById('navToggle');
+  const links = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => {
+    links.classList.toggle('open');
+  });
+  // Close mobile menu on link click
+  links.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => links.classList.remove('open'));
+  });
+</script>
+
+<!-- PayPal Donate SDK -->
+<script is:inline
+  src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js"
+  charset="UTF-8"></script>
+<script is:inline>
+  if (typeof PayPal !== 'undefined') {
+    PayPal.Donation.Button({
+      env: 'production',
+      hosted_button_id: 'MLN72XRM42EB4',
+      onComplete: function () {
+        window.location.href = '/thanks/';
+      },
+      image: {
+        src: 'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
+        alt: 'Donate with PayPal button',
+        title: 'PayPal - The safer, easier way to pay online!',
+      }
+    }).render('#paypal-donate-button-container');
+  }
+</script>
+
+</body>
+</html>
