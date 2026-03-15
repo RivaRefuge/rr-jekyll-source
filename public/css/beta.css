@@ -113,17 +113,22 @@ a:hover {
 .beta-nav-links a:hover {
   color: var(--rr-red);
 }
-.beta-nav-cta {
+/* Sticky CTA — always visible, outside collapsible menu */
+.beta-nav-sticky-cta {
   background: var(--rr-red);
   color: #fff !important;
   padding: 0.5rem 1.25rem;
   border-radius: 50px;
-  font-size: 0.85rem !important;
-  font-weight: 600 !important;
+  font-size: 0.85rem;
+  font-weight: 600;
   letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 0;
   transition: background 0.2s, transform 0.2s;
 }
-.beta-nav-cta:hover {
+.beta-nav-sticky-cta:hover {
   background: var(--rr-red-dark);
   color: #fff !important;
   transform: translateY(-1px);
@@ -143,6 +148,17 @@ a:hover {
 @media (max-width: 768px) {
   .beta-nav-toggle {
     display: block;
+  }
+  .beta-nav-inner {
+    gap: 0.75rem;
+  }
+  .beta-nav-sticky-cta {
+    font-size: 0.75rem;
+    padding: 0.4rem 1rem;
+    order: 2;
+  }
+  .beta-nav-toggle {
+    order: 3;
   }
   .beta-nav-links {
     display: none;
@@ -530,8 +546,75 @@ a:hover {
   margin: 0;
   line-height: 1.5;
 }
-.paypal-wrap {
+/* Address disclosure inside Donate card */
+.address-disclosure {
+  margin-top: 0.75rem;
+}
+.address-disclosure summary {
+  cursor: pointer;
+  font-size: 0.8rem;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+  list-style: none;
+}
+.address-disclosure summary::-webkit-details-marker {
+  display: none;
+}
+.address-disclosure summary::before {
+  content: '\f078';
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  margin-right: 0.4rem;
+  font-size: 0.65rem;
+  transition: transform 0.2s;
+  display: inline-block;
+}
+.address-disclosure[open] summary::before {
+  transform: rotate(180deg);
+}
+.address-disclosure summary:hover {
+  opacity: 1;
+}
+.address-disclosure .address-text {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  opacity: 0.7;
+  line-height: 1.6;
+}
+
+/* Custom donate button */
+.donate-btn-wrap {
   margin-top: 2rem;
+}
+.btn-donate {
+  display: inline-block;
+  background: linear-gradient(135deg, #ff6b6b, var(--rr-red));
+  color: #fff !important;
+  padding: 1rem 3rem;
+  border-radius: 50px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 20px rgba(192, 57, 43, 0.4);
+}
+.btn-donate:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(192, 57, 43, 0.5);
+  color: #fff !important;
+}
+.btn-donate i {
+  margin-right: 0.4rem;
+}
+.donate-secure-note {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
+.donate-secure-note i {
+  margin-right: 0.3rem;
 }
 @media (max-width: 768px) {
   .cta-options {

@@ -5,8 +5,7 @@ import heroImg from '../../assets/images/fp-hero.jpg';
 import visionImg from '../../assets/images/our-vision-0.jpg';
 import historyImg from '../../assets/images/our-history.jpg';
 import clothesImg from '../../assets/images/2024-p0.jpg';
-import kidsImg from '../../assets/images/2024-p2.jpg';
-import judyImg from '../../assets/images/2019-judy.jpg';
+import schoolImg from '../../assets/images/school-assembly-with-flag.jpg';
 import nutritionImg from '../../assets/images/2019-p1.jpg';
 import dressesImg from '../../assets/images/2018-pillowcasedresses1.jpg';
 import logoImg from '../../assets/images/rrlogo-only.png';
@@ -52,8 +51,8 @@ const canonicalURL = new URL('/beta/', 'https://www.rivarefuge.org');
       <li><a href="#vision">Vision</a></li>
       <li><a href="#stories">Stories</a></li>
       <li><a href="#team">Team</a></li>
-      <li><a href="#involved" class="beta-nav-cta">Donate</a></li>
     </ul>
+    <a href="#involved" class="beta-nav-sticky-cta">Get Involved</a>
   </div>
 </nav>
 
@@ -132,7 +131,7 @@ const canonicalURL = new URL('/beta/', 'https://www.rivarefuge.org');
       <!-- Scholarships -->
       <div class="campaign-card">
         <div class="campaign-card-img">
-          <Image src={judyImg} alt="Scholarship student Judy" width={500} />
+          <Image src={schoolImg} alt="Students at school assembly" width={500} />
         </div>
         <div class="campaign-card-body">
           <h3>Scholarships</h3>
@@ -230,16 +229,17 @@ const canonicalURL = new URL('/beta/', 'https://www.rivarefuge.org');
     <!-- Story 1 -->
     <div class="story-grid" style="margin-bottom:4rem;">
       <div class="story-text">
-        <h3>Judy's Journey</h3>
+        <h3>Sixty Dresses, Sixty Smiles</h3>
         <p>
-          Judy grew up at Mama Ngina Children's Home. With Riva Refuge's
-          support, she completed college and built an independent life.
-          Her sister Noreen followed the same path. Both are now thriving
-          — proof that a hand up at the right time changes everything.
+          In 2018, a generous US volunteer hand-sewed sixty pillowcase
+          dresses for girls in Kitale. What arrived as a suitcase of
+          fabric left as pure joy — each dress a reminder that someone
+          across the world cared. Small acts of kindness, multiplied
+          by dedicated volunteers, create moments that last a lifetime.
         </p>
       </div>
       <div class="story-img">
-        <Image src={kidsImg} alt="Happy children with new clothes" width={500} />
+        <Image src={dressesImg} alt="Girls wearing handmade pillowcase dresses" width={500} />
       </div>
     </div>
 
@@ -275,7 +275,11 @@ const canonicalURL = new URL('/beta/', 'https://www.rivarefuge.org');
       <div class="cta-card">
         <div class="cta-card-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
         <h3>Donate</h3>
-        <p>Give via PayPal online or mail a check to Riva Refuge, Inc., 10 West Bluff Drive, Port Angeles WA 98362.</p>
+        <p>Give securely via PayPal or mail a check.</p>
+        <details class="address-disclosure">
+          <summary>View mailing address</summary>
+          <p class="address-text">Riva Refuge, Inc.<br />10 West Bluff Drive<br />Port Angeles, WA 98362</p>
+        </details>
       </div>
       <div class="cta-card">
         <div class="cta-card-icon"><i class="fa-solid fa-people-group"></i></div>
@@ -289,9 +293,16 @@ const canonicalURL = new URL('/beta/', 'https://www.rivarefuge.org');
       </div>
     </div>
 
-    <!-- PayPal Donate Button -->
-    <div class="paypal-wrap">
-      <div id="paypal-donate-button-container"></div>
+    <!-- Donate Button -->
+    <div class="donate-btn-wrap">
+      <a href="https://www.paypal.com/donate/?hosted_button_id=MLN72XRM42EB4"
+         target="_blank" rel="noopener"
+         class="btn-donate">
+        <i class="fa-solid fa-heart"></i> Donate Now
+      </a>
+      <p class="donate-secure-note">
+        <i class="fa-solid fa-lock"></i> Secure payment via PayPal
+      </p>
     </div>
   </div>
 </section>
@@ -372,26 +383,6 @@ const canonicalURL = new URL('/beta/', 'https://www.rivarefuge.org');
   });
 </script>
 
-<!-- PayPal Donate SDK -->
-<script is:inline
-  src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js"
-  charset="UTF-8"></script>
-<script is:inline>
-  if (typeof PayPal !== 'undefined') {
-    PayPal.Donation.Button({
-      env: 'production',
-      hosted_button_id: 'MLN72XRM42EB4',
-      onComplete: function () {
-        window.location.href = '/thanks/';
-      },
-      image: {
-        src: 'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
-        alt: 'Donate with PayPal button',
-        title: 'PayPal - The safer, easier way to pay online!',
-      }
-    }).render('#paypal-donate-button-container');
-  }
-</script>
 
 </body>
 </html>
